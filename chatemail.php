@@ -1,12 +1,12 @@
 <?php
 
-    if(isset($_POST['quote'])){
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        $quantity = $_POST['quantity'];
-        $weight = $_POST['weight'];
-        $from = $_POST['email'];
+    if(isset($_POST['usemail'])){
+        $name = $_POST['username'];
+        $email = $_POST['usemail'];
+        //$phone = $_POST['phone'];
+       // $quantity = $_POST['quantity'];
+       // $weight = $_POST['weight'];
+        $from = $_POST['usemail'];
         $to = $_POST['email'];
       //  echo "sending message";
         $formcontent="Sender: Name $name \n Phone Number:  $phone
@@ -34,8 +34,8 @@
     }*/
 	if(isset($_POST['message'])){
 		$subject= $_POST['message'];
-        $recipient = 'ochieng@ezenfinancials.com';
-        $formcontent = 'this is the message';
+        $recipient = 'hanncock98@gmail.com';
+        $formcontent = $_POST['message'];
         $email = 'dev@ezenfinancials.com';
       //  $mailheader = 'From: .$email';
         mail($recipient, $subject, $formcontent, $email) or die("Error!");

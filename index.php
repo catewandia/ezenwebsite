@@ -66,7 +66,6 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#header">Home</a></li>
-          <li><a class="nav-link scrollto active" href="#header">Why Ezen</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Solutions</span> <i class="bi bi-chevron-down"></i></a>
@@ -334,7 +333,7 @@
         <div class="row">
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx home-smile"></i></div>
+              <div class="icon"><i class="bx bx-layer"></i></div>
               <h4><a href="property_management.html">Property Management</a></h4>
               <p>Combines all the features needed for property management for big or small property agents and landlords, into one integrated system.</p>
             </div>
@@ -438,17 +437,17 @@
 
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
-              <i class="icofont-simple-smile"></i>
+              <i class="icofont-users-alt-5"></i>
               <span data-toggle="counter-up">100+</span>
               <p><b>Happy Clients</b></p>
             </div>
           </div>
 	
-		 <div class="col-lg-3 col-md-6">
+		<div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
-              <i class="icofont-simple-smile"></i>
+              <i class="icofont-users-alt-5"></i>
               <span data-toggle="counter-up">100,000+</span>
               <p><b>Tenants</b></p>
             </div>
@@ -495,87 +494,7 @@
           <h3 class="wow cssanimation fadeInBottom" data-wow-offset="200" data-wow-delay="600ms" data-wow-duration="700ms" style="visibility: visible; animation-duration: 700ms; animation-delay: 600ms; animation-name: bfadeInBottom;"><strong>We Help to Acheive Your <br>Business Goals </strong></h3>
         </div>
 			<?php include('profile.html');?>
-        <!--div class="row" style='display:grid;'>
-			 <div class="pic">
-				 <img src="assets/img/team/team-11.jpg" class="img-fluid" alt=""><br>
-				 <h4>Mike Bevon<h4>
-				 <h4>Director Product Development<h4>
-			 </div>
-			 <div class="pic">
-				 <img src="assets/img/team/team-11.jpg" class="img-fluid" alt=""><br>
-				 <h4>Mike Bevon<h4>
-				 <h4>Director Product Development<h4>
-			 </div>
-			 <div class="pic">
-				 <img src="assets/img/team/team-11.jpg" class="img-fluid" alt=""><br>
-				 <h4>Mike Bevon<h4>
-				 <h4>Director Product Development<h4>
-			 </div>
-          <!--div class="col-lg-6">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="assets/img/team/team-11.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Mike Bavon</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4 mt-lg-0">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="assets/img/team/team-22.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Patricia Njeri</h4>
-                <span>Product Manager</span>
-                <p></p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic"><img src="assets/img/team/team-33.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Cynthia Njoki</h4>
-                <span>Sales Executive</span>
-                
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div class="pic"><img src="assets/img/team/team-44.png" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Victor Chacha</h4>
-                <span>Senior Implementor</span>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div-->
+        
 
         </div>
 
@@ -800,7 +719,7 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; Copyright <strong><span>Ezen Financials.</span></strong>All Rights Reserved
+        &copy; Copyright<span id='year'></span> <strong><span>Ezen Financials.</span></strong>All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -842,6 +761,7 @@ function carousel() {
   x[slideIndex-1].style.display = "block"; 
   setTimeout(carousel, 5000); 
 }
+document.getElementById("year").innerHTML = new Date().getFullYear();
 </script>
 
 </body>
