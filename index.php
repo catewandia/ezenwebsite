@@ -38,7 +38,7 @@
 
 
   <!-- =======================================================
-  * Author: Vincent Alusa
+  * Author: Ezen Team
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <!--script>
@@ -99,7 +99,7 @@
           <h2>At Ezen Financials We Get It Done</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="getquote.html" class="btn-get-started scrollto">Get a Quote</a>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="https://www.youtube.com/watch?v=5H6omNqPkpU" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -502,7 +502,7 @@
     </section><!-- End Team Section -->
 
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
+     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -517,25 +517,33 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-1" class="collapsed">What is Ezen Financials?  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Ezen Financials is an <strong>all-in-one web based</strong> property management that has accounting, human resource and payroll software that helps property managers, landords and other business streamline rental collection, lease management, facility management, accounting, payroll and human resource with superior efficiency and ease.
+                  Ezen Financials is<strong> a web-based ERP solution</strong> for Property Management, Sacco management,Human Resource,Project Management,Accounting solutions.
+
+					Ezen Financials Property Management module is for:
+					<ul>
+					<li>(i) Those who are managing their own property (Landlords).</li>
+
+					<li>(ii) Those that are managing property on behalf of other landlords (Property Managers/Agents).</li>
+
+					<li>(iii) Those that are managing property both as property managers and as Landlords.</li></ul>
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What are some of the solutions you offer? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Do I need to install the software locally to my computer to be able to use it? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  At Ezen we offer a variety of solutions to fit your business needs. Examples are: Property Management, Accounting and Human Resources & Payroll softwares.
+                  It depends on the size of your operations, if your operations can be considered as big then installing locally to your server would be ideal but it would be important to note the cost implications. On the other hand, if the operations can be considered small in size, it would be advisable to access it from the cloud server.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What is the biggest challenge with ERP systems? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Can I migrate my business data from my current enterprise system to Ezen? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  One of the biggest ERP implementation challenges is getting users and functional groups to change their ways in order to work with the new solution.
+                  Ezen Financials Makes data migration a breeze . No modification of data required as Ezen supports multiple data formats,no special software required..
                 </p>
               </div>
             </li>
@@ -566,12 +574,31 @@
                 </p>
               </div>
             </li>
+			
+			 <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">What are the payment methods you do support? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Ezen supports multiple payment methods including M-Pesa, Electronic Fund Transfer,Smart Cards, Banks(Equity)
+                </p>
+              </div>
+            </li>
+
+			<li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">Does Ezen financials come with a mobile application for ease of accessing information? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Yes, Ezen Financials mobile applications for Property Agents,Landlords and Tenants, all available in play store and icloud as well.
+                </p>
+              </div>
+            </li>
 
           </ul>
         </div>
 
       </div>
     </section><!-- End Frequently Asked Questions Section -->
+    
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
