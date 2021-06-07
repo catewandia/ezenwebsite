@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EZEN FINANCIALS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/property_management.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Author: Vincent Alusa
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <script>
+			function sendquote(){
+			    var xhr = new XMLHttpRequest();
+			   	var usemail = document.getElementById('usemail').value;
+			   	var quomesso = document.getElementById('quomesso').value;
+			   	var usename = document.getElementById('usename').value;
+			   	var subject = document.getElementById('subject').value;
+				console.log(usemail,quomesso,usename,subject);
+			//	console.log(email, messo, name);
+				xhr.open('POST', 'chatemail.php', true);
+				xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+				xhr.onload = function () {
+					// do something to response
+					console.log(this.responseText);
+				};
+				xhr.send('usemail=' + usemail, 'quomesso=' + quomesso, 'usename=' + usename, 'subject' + subject);
+				
+				//console.log(email, messo, name);
+            }
+  </script>
+  <style>
+	  *{
+		outline:none;
+	  }
+	  .quoteform{
+	    /*background:blue;
+		
+		background:url("assets/img/partners.jpg");
+		background-repeat:no-repeat;
+		background-size: auto;*/
+		
+		margin-top:8rem;
+		min-height:500px;
+	  }
+	  .profile{
+		color:black;
+		min-height:400px;
+	  }
+	.details{
+		display: inline-flex;  
+		width:-webkit-fill-available;
+		flex-wrap:wrap;
+		gap:3rem;
+		color:black;
+		height:auto;
+		justify-content:center;
+	}
+	.message{
+			display: flex;  
+		width:-webkit-fill-available;
+		flex-wrap:wrap;
+		
+		color:black;
+		height:auto;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+	}
+	.one{
+		color:black;
+		width:42.5%;
+		text-align:center;
+	}
+	.two{
+	    
+	    width:100%;
+	}
+	input[type=text],  input[type=email] {
+	  width: 80%;
+	  padding: 15px;
+	  margin: 5px 0 22px 0;
+	  border: none;
+	  background: #f1f1f1;
+	  border-bottom:1px solid grey;
+	}
+	input[type=text],  input[type=email]:focus {
+	  width: 80%;
+	  padding: 15px;
+	  margin: 5px 0 22px 0;
+	  
+	  
+	}
+	input[type=button]{
+		background;green;
+	}
+	textarea{
+		height:200px;
+		 width: 80%;
+	  padding: 15px;
+	  margin: 5px 0 22px 0;
+	  background:white;
+	}
+	.button{
+		justify-content:center;
+		height:2rem;
+	}
+	@media screen and (max-width: 800px) {
+	    .quoteform{
+    		width:-webkit-fill-available;
+    		
+    	
+    		background-size: auto;
+    		min-height:500px;
+	     }
+	     .profile{
+		    color:black;
+	
+	       }
+    	.details{
+		    display:flex;
+		    flex-direction:column;
+	    }
+	    .one{
+		color:black;
+	
+		text-align:center;
+		width:100%;
+	}
+			}
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+
+
+        <div class="logo me-auto" >
+        <div class="aligned2"><a href="index.html"><img src="assets/img/property_management.png"class="aligned2"></a>
+     <h1><a href="index.php"></a><strong>Ezen Financials</strong></h1></div></div>
+
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.php#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Solutions</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="property_management.html#property_management">Property Management</a></li>
+              <li><a href="property_management.html#SACCO">Sacco</a></li>
+              <li><a href="property_management.html#Financial">Financial Accounting</a></li>
+              <li><a href="property_management.html#Human">Human Resource & Payroll</a></li>
+              <li><a href="property_management.html#Inventory">Inventory Management & POS</a></li>
+              <li><a href="property_management.html#Facility">Facility Management</a></li>
+              <li><a href="property_management.html">Property Sales</a></li>
+              <li><a href="property_management.html">Legal Affairs Management</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get a Quote</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  
+<!--------------------------------------------------------------------------------------------
+  #getaquote
+  ------------------------------------------------------------------------------------------->
+  <main id="main" >
+
+		<form method="POST" action="" class='quoteform' >
+			<div class='profile'>
+				<center style='color:white;font-size:;'><br>Talk to us<br></center>
+				<div class='details'>
+					<div class='one'>
+					Your Name<br>
+					<input type='text' name='usename' id='usename'required>
+					</div>
+					<div class='one'>
+					Your Email<br>
+					<input type='email' name='usemail' id='usemail' required><br>
+					</div>
+				</div>
+				<div class='message'>
+				    <div class='two'>
+					Subject<br>
+					<input type='text' name='subject' id='subject'required><br>
+					</div>
+					<div class='two'>
+					Message<br>
+					<textarea name="quomesso" id='quomesso'></textarea>
+					<!--input type='text' name='message' required-->
+					</div>
+					<input type='button' name='submit' value='Get Quote' class="button" style='height:4rem;width:16rem;' onclick="sendquote()">
+				</div>
+				
+			</div>
+			
+		</form>
+		</main>
+    
+ <!-- End #main -->
+<!--=====End getaquote=====>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p><b>For more services</b></p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Ezen Financials</h3>
+            <p>
+              Twiga Towers, 7th Floor <br>
+              Murang'a Rd<br>
+              Nairobi, Kenya <br><br>
+              <strong>Phone:</strong> (+254)729 523 191<br>
+        <strong>Phone:</strong> (+254)720 893 792<br>
+              <strong>Email:</strong> enquiry@ezenfinancials.com<br>
+        <strong>Email:</strong> solutions@ezenfinancials.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php#header">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="property_management.html#property_management">Solutions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Solutions</h4>
+            <ul>
+               <li><i class="bx bx-chevron-right"></i> <a href="property_management.html#property_management">Property Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="property_management.html#accounting">Financial Accounting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="property_management.html#Inventory">Inventory Management & POS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="property_management.html#Human">Human Resource & Payroll</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Property Sales</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>You can also follow us on:</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Ezen Financials.</span></strong>All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://bootstrapmade.com/"><b>Ezen Team</b></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+ 
+
+</body>
+
+</html>
