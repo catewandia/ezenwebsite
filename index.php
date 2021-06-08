@@ -265,6 +265,9 @@
     <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
 
+	      <div class="section-title">
+         <h2>Why us </h2>          
+        </div>
         <div class="row">
          
         <div class="col-lg-6 align-items-left" data-aos="fade-right" data-aos-delay="100" size="width:100px; height:100px;">
@@ -374,7 +377,8 @@
 
 
         <div class="section-title">
-          <h2>What are they saying about us</h2>
+         <h2>What they say about us</h2></style>
+          
         </div>
         
 
