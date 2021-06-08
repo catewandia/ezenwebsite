@@ -211,41 +211,74 @@
     <section id="why-us" class="why-us section-bg">
       <div class="container-fluid" data-aos="fade-up">
 
+		<div class="section-title">
+         <h2>Why us </h2>          
+        </div>
         <div class="row">
 
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
             <div class="content">
-              <h3>Increase your property income with EZEN FINANCIALS <strong> 9 years of Quality Software</strong></h3>
+              <h3>Usability and Reliability,<strong>Save Money and Time</strong></h3>
               <p>
-                A driving success for property owners, agencies, developers and property managers around the country. Great customer support, custom built solutions, 1 on 1 consultancy.
+                Ezen Financial has passed the usability test, users have rated it as user friendly and a product that is available whenever needed..
+              </p>
+			  <p>
+                Ezen Financial also help in managing your landlords, properties, tenants, staffs, projects, contributions and savings on a single platform cheaply and efficiently..
               </p>
             </div>
 
             <div class="accordion-list">
               <ul>
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-1" class="collapsed"><span>01</span> Property Management. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-1" class="collapsed"><span>01</span> Security. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse" data-bs-parent=".accordion-list">
-                    <p>Lease Management, Mpesa and banks automated rental collection for property managers and landlords.
+                    <p>Ezen is hosted on the cloud for higher security and reliability. It's secure by design and uses role based access controls for data integrity, confidentiality and availability.
                     </p>
                   </div>
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Integrated Accounting. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Data Migration. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      Integrated, automated, easy to use accounting for all businesses.
+                      Easily import to and export bulk data from the Ezen in any format. Lets you convert your data into any format needed when exporting from Ezen.
                     </p>
                   </div>
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>Human Resource and Payroll. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>Accounting and Reporting <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                     Simplified and easy to use Human Resource Management System.
+                     Ezen comes with a tool for automated accounting and reporting for improved business insight and decision-making.
+                    </p>
+                  </div>
+                </li>
+
+				<li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>04</span>SMS/Emails <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                     Send SMS and Emails to any of your clients, contacts and staff and keep records of what was sent..
+                    </p>
+                  </div>
+                </li>
+
+				<li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>05</span>Online Payments<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                     Receive M-Pesa and bank payment notification integrated into your Ezen account for easier receipting, and confirmation of payment.
+                    </p>
+                  </div>
+                </li>
+
+				<li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>06</span>Online applications <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                    Ezen comes with online portals and mobile for landlords, tenants and field officers. A portal for staff on your payroll.
                     </p>
                   </div>
                 </li>
@@ -260,7 +293,6 @@
 
       </div>
     </section><!-- End Why Us Section -->
-
     <!-- ====  <!-- ======= Applications Section ======= -->
     <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
