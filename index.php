@@ -76,8 +76,7 @@
               <li><a href="property_management.html#Human">Human Resource & Payroll</a></li>
               <li><a href="property_management.html#Inventory">Inventory Management & POS</a></li>
               <li><a href="property_management.html#Facility">Facility Management</a></li>
-              <li><a href="property_management.html">Property Sales</a></li>
-              <li><a href="property_management.html">Legal Affairs Management</a></li>
+             
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -278,7 +277,7 @@
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>06</span>Online applications <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                    Ezen comes with online portals and mobile for landlords, tenants and field officers. A portal for staff on your payroll.
+                    Ezen comes with online portals and mobile applications for landlords, tenants and field officers.
                     </p>
                   </div>
                 </li>
@@ -316,7 +315,7 @@
             <div class="aligned">
           <img src="assets/img/people.png" class= "appimg">
           <span><h4><strong>Ezen People</strong></h4>
-          <p>Ezen People HR software solution combines a number of systems and processes and is used by small and large businesses for better employee management.</p><div class="link"><a href="https://play.google.com/store/apps/details?id=com.corvidpartners.employees">DOWNLOAD</a></div></span><br><br>
+          <p>Ezen People HR software solution combines a number of systems and processes and is used by both small and large businesses for better employee management.</p><div class="link"><a href="https://play.google.com/store/apps/details?id=com.corvidpartners.employees">DOWNLOAD</a></div></span><br><br>
            </div>
           </div>
          </div>
@@ -325,7 +324,7 @@
         <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                  <h3>Our Mobile Applications</h3>
             <p class="font-italic">
-              We have our mobile applications which enable our clients to interact with the system from any point with the use of various devices.</u></a>
+              We have our mobile applications which enable our clients to interact with the system freely from any point with the use of smart devices.</u></a>
              </p>
            
              <div class="row">
@@ -394,7 +393,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
               <h4><a href="property_management.html#SACCO">Sacco</a></h4>
-              <p>Simplified and easy to use human resource management system.</p>
+              <p>Simplified and easy to use Human Resource Management System.</p>
             </div>
           </div>
 
